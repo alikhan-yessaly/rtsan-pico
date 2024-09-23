@@ -15,7 +15,7 @@
 
 import time
 import ustruct
-import fonts.tt32 as glcdfont
+import tt32 as glcdfont
 import framebuf
 from micropython import const
 
