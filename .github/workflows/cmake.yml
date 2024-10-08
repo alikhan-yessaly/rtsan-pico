@@ -15,8 +15,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: Pico
-            board: pico
           - name: Pico W
             board: pico_w
 
