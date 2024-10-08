@@ -1,6 +1,6 @@
 # library taken from repository at:
 # https://github.com/micropython/micropython/blob/master/drivers/display/ssd1306.py
-#
+
 from micropython import const
 from machine import Pin, I2C # type: ignore
 import framebuf # type: ignore
