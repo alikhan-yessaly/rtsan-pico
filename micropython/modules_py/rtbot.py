@@ -23,7 +23,8 @@ class Bot():
     
     WHEEL_DIA = 4.3
     
-    ONETURN = 84/43 # degrees of robot turning per degree of motor rotation
+    ONETURN = 84/43 
+    # degrees of robot turning per degree of motor rotation
     
     def __init__(self, motor_gear_ratio=112, init_motors=True):
         # Free up hardware resources for encoders
