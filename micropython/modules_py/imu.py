@@ -3,7 +3,6 @@ A lightweight MicroPython implementation for interfacing with an MPU-6050 via I2
 Author: Tim Hanewich - https://github.com/TimHanewich
 Version: 1.0
 Get updates to this code file here: https://github.com/TimHanewich/MicroPython-Collection/blob/master/MPU6050/MPU6050.py
-
 License: MIT License
 Copyright 2023 Tim Hanewich
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
