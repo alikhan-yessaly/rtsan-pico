@@ -3,6 +3,7 @@ from utime import sleep_us # type: ignore
 
 __version__ = '0.2.1'
 __author__ = 'Roberto Sánchez'
+
 __license__ = "Apache License 2.0. https://www.apache.org/licenses/LICENSE-2.0"
 
 class Distance:
