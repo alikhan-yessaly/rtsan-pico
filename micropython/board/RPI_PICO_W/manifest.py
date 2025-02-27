@@ -8,4 +8,7 @@ require("sdcard")
 # Bluetooth
 require("aioble")
 
+# Picographics
+require("st7789")
+
 include("../manifest_picow.py")
