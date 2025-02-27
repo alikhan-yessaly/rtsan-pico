@@ -9,6 +9,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 include(micropython-common)
 
+include(st7789)
+
 # C++ Magic Memory
 include(cppmem/micropython)
 
