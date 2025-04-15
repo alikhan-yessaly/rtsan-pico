@@ -16,4 +16,4 @@ set(MICROPY_PY_BLUETOOTH_CYW43 ON)
 # Board specific version of the frozen manifest
 set(MICROPY_FROZEN_MANIFEST ${MICROPY_BOARD_DIR}/manifest.py)
 
-add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/../../../drivers/st7789" st7789)
+set(MICROPY_USER_C_MODULES "${MICROPY_BOARD_DIR}/../../../modules/st7789")
