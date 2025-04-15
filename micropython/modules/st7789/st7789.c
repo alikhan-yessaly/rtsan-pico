@@ -1261,9 +1261,9 @@ static mp_obj_t st7789_ST7789_init(mp_obj_t self_in) {
 
     st7789_ST7789_fill_rect(6, args);
 
-    if (self->backlight != GPIO_NUM_NC) {
-        mp_hal_pin_write(self->backlight, 1);
-    }
+    //if (self->backlight != GPIO_NUM_NC) {
+    //    mp_hal_pin_write(self->backlight, 1);
+    //}
 
     return mp_const_none;
 }
