@@ -22,7 +22,7 @@
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
  * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * LIABILITY, WHETHER IN AN ACTI OF CTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
@@ -1270,24 +1270,24 @@ static mp_obj_t st7789_ST7789_init(mp_obj_t self_in) {
 static MP_DEFINE_CONST_FUN_OBJ_1(st7789_ST7789_init_obj, st7789_ST7789_init);
 
 static mp_obj_t st7789_ST7789_on(mp_obj_t self_in) {
-    st7789_ST7789_obj_t *self = MP_OBJ_TO_PTR(self_in);
+    // st7789_ST7789_obj_t *self = MP_OBJ_TO_PTR(self_in);
 
-    if (self->backlight != GPIO_NUM_NC) {
-        mp_hal_pin_write(self->backlight, 1);
-        mp_hal_delay_ms(10);
-    }
+    // if (self->backlight != GPIO_NUM_NC) {
+    //     mp_hal_pin_write(self->backlight, 1);
+    //     mp_hal_delay_ms(10);
+    // }
 
     return mp_const_none;
 }
 static MP_DEFINE_CONST_FUN_OBJ_1(st7789_ST7789_on_obj, st7789_ST7789_on);
 
 static mp_obj_t st7789_ST7789_off(mp_obj_t self_in) {
-    st7789_ST7789_obj_t *self = MP_OBJ_TO_PTR(self_in);
+    // st7789_ST7789_obj_t *self = MP_OBJ_TO_PTR(self_in);
 
-    if (self->backlight != GPIO_NUM_NC) {
-        mp_hal_pin_write(self->backlight, 0);
-        mp_hal_delay_ms(10);
-    }
+    // if (self->backlight != GPIO_NUM_NC) {
+    //     mp_hal_pin_write(self->backlight, 0);
+    //     mp_hal_delay_ms(10);
+    // }
 
     return mp_const_none;
 }
