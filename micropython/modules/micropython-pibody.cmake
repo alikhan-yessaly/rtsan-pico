@@ -15,6 +15,9 @@ set(CMAKE_CXX_STANDARD 17)
 # Your custom ST7789 driver module
 include(st7789/micropython)
 
+# C++ Magic Memory
+include(cppmem/micropython)
+
 # If you had these later:
 # include(picographics/micropython)
 include(pwm/micropython)
