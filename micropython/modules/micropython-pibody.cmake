@@ -17,7 +17,7 @@ include(st7789/micropython)
 
 # If you had these later:
 # include(picographics/micropython)
-# include(pwm/micropython)
+include(pwm/micropython)
 include(servo/micropython)
 
 # Optional compile flags or preprocessor defines
